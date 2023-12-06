@@ -1,0 +1,43 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - get_recommendation
+
+responses:
+  utter_greet:
+  - text: "Hey! Please describe a game you would want to play"
+  - text: "Hi! How is it going?"
+  - text: "Hi, I am Gram(Game Recommendation Automation Machine)"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "That is great to hear!"
+
+  utter_sad:
+  - text: "I am sorry to hear that, please feel free to try and get another recommendation"
+
+  utter_goodbye:
+  - text: "Have a nice day"
+  - text: "So long, hope to talk to you soon"
+
+  utter_iamabot:
+  - text: "I am a video game recommendation chatbot, powered by Rasa."
+
+  utter_recommendation:
+  - text: "Here is a game recommendation"
+
+actions:
+- action_recommend
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

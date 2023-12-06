@@ -1,0 +1,28 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: recommendation path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: get_recommendation
+  - action: action_recommend
+  - intent: mood_great
+  - action: utter_happy
+
+- story: recommendation path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: get_recommendation
+  - action: action_recommend
+  - intent: mood_unhappy
+  - action: utter_sad

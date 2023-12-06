@@ -1,0 +1,119 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - perfect
+    - great
+    - amazing
+    - good
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - not good
+    - bad
+    - poor
+    - terrible
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: get_recommendation
+  examples: |
+    - Tell me about
+    - Recommend me
+    - I want to play a
+    - Recommend me a game about an archaeologist exploring ancient tombs, solving intricate puzzles, and facing supernatural guardians to unearth lost relics.
+    - I want to play a game about a futuristic detective in a neon-lit city, solving cybercrimes, hacking into virtual networks, and unraveling a conspiracy that spans the digital realm.
+    - Recommend me a game about a team of space archaeologists discovering remnants of an ancient alien civilization, deciphering their technology, and encountering extraterrestrial threats.
+    - I want to play a game about a skilled pilot navigating through a post-apocalyptic world, scavenging for resources, and engaging in aerial dogfights with rival factions for survival.
+    - Recommend me a game about a bioengineer creating and evolving a unique ecosystem, experimenting with hybrid creatures, and maintaining balance in a dynamic, evolving world.
+    - I want to play a game about a time-traveling inventor building a contraption to explore different historical periods, influencing key events, and dealing with the consequences of altering the past.
+    - Recommend me a game about a team of scientists aboard a research station in a remote location, conducting experiments, facing environmental challenges, and uncovering a mysterious anomaly.
+    - I want to play a game about a group of intergalactic diplomats negotiating peace between alien civilizations, managing alliances, and navigating political intrigue in a vast cosmic landscape.
+    - Recommend me a game about a cybernetic bounty hunter tracking down rogue AI, hacking into virtual environments, and engaging in intense battles against corrupted machines.
+    - I want to play a game about a fantasy world where players take on the roles of gods, shaping the destinies of mortal beings, and competing with other deities for control over the realm.
+    - Recommend me a game about a post-human society, where players explore the complexities of consciousness, morality, and existential dilemmas while interacting with advanced artificial intelligences.
+    - I want to play a game about a group of survivors in a submerged city, navigating flooded landscapes, solving underwater puzzles, and discovering the secrets of a drowned civilization.
+    - Tell me a game that involves space exploration made before 2013
+    - Recommend a game that involves battling against zombies.
+    
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
